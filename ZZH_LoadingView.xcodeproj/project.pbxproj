@@ -15,6 +15,11 @@
 		291782AE1D20C160006BA489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 291782AC1D20C160006BA489 /* LaunchScreen.storyboard */; };
 		291782B91D20C160006BA489 /* ZZH_LoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 291782B81D20C160006BA489 /* ZZH_LoadingViewTests.m */; };
 		291782C41D20C160006BA489 /* ZZH_LoadingViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 291782C31D20C160006BA489 /* ZZH_LoadingViewUITests.m */; };
+		291782D41D20C1C3006BA489 /* ZZH_LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291782D31D20C1C3006BA489 /* ZZH_LoadingView.m */; };
+		291782D81D20C24D006BA489 /* CenterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 291782D71D20C24D006BA489 /* CenterLayer.m */; };
+		291782DB1D20C43B006BA489 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 291782DA1D20C43B006BA489 /* UIColor+Hex.m */; };
+		BD3B8EB81D228BA100A43DA9 /* circleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B8EB71D228BA100A43DA9 /* circleLayer.m */; };
+		BD3B8EBA1D228E4600A43DA9 /* 1242.png in Resources */ = {isa = PBXBuildFile; fileRef = BD3B8EB91D228E4600A43DA9 /* 1242.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		291782BF1D20C160006BA489 /* ZZH_LoadingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZH_LoadingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		291782C31D20C160006BA489 /* ZZH_LoadingViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZH_LoadingViewUITests.m; sourceTree = "<group>"; };
 		291782C51D20C160006BA489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		291782D21D20C1C3006BA489 /* ZZH_LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZH_LoadingView.h; sourceTree = "<group>"; };
+		291782D31D20C1C3006BA489 /* ZZH_LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZH_LoadingView.m; sourceTree = "<group>"; };
+		291782D61D20C24D006BA489 /* CenterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterLayer.h; sourceTree = "<group>"; };
+		291782D71D20C24D006BA489 /* CenterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterLayer.m; sourceTree = "<group>"; };
+		291782D91D20C43B006BA489 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		291782DA1D20C43B006BA489 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		BD3B8EB61D228BA100A43DA9 /* circleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circleLayer.h; sourceTree = "<group>"; };
+		BD3B8EB71D228BA100A43DA9 /* circleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = circleLayer.m; sourceTree = "<group>"; };
+		BD3B8EB91D228E4600A43DA9 /* 1242.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1242.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,7 @@
 				291782A21D20C160006BA489 /* AppDelegate.m */,
 				291782A41D20C160006BA489 /* ViewController.h */,
 				291782A51D20C160006BA489 /* ViewController.m */,
+				291782D11D20C1A7006BA489 /* ZZH_LoadingView */,
 				291782A71D20C160006BA489 /* Main.storyboard */,
 				291782AA1D20C160006BA489 /* Assets.xcassets */,
 				291782AC1D20C160006BA489 /* LaunchScreen.storyboard */,
@@ -138,6 +153,30 @@
 				291782C51D20C160006BA489 /* Info.plist */,
 			);
 			path = ZZH_LoadingViewUITests;
+			sourceTree = "<group>";
+		};
+		291782D11D20C1A7006BA489 /* ZZH_LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				291782D21D20C1C3006BA489 /* ZZH_LoadingView.h */,
+				291782D31D20C1C3006BA489 /* ZZH_LoadingView.m */,
+				291782D91D20C43B006BA489 /* UIColor+Hex.h */,
+				291782DA1D20C43B006BA489 /* UIColor+Hex.m */,
+				291782D51D20C224006BA489 /* ZZH_Layers */,
+			);
+			name = ZZH_LoadingView;
+			sourceTree = "<group>";
+		};
+		291782D51D20C224006BA489 /* ZZH_Layers */ = {
+			isa = PBXGroup;
+			children = (
+				291782D61D20C24D006BA489 /* CenterLayer.h */,
+				291782D71D20C24D006BA489 /* CenterLayer.m */,
+				BD3B8EB61D228BA100A43DA9 /* circleLayer.h */,
+				BD3B8EB71D228BA100A43DA9 /* circleLayer.m */,
+				BD3B8EB91D228E4600A43DA9 /* 1242.png */,
+			);
+			name = ZZH_Layers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3B8EBA1D228E4600A43DA9 /* 1242.png in Resources */,
 				291782AE1D20C160006BA489 /* LaunchScreen.storyboard in Resources */,
 				291782AB1D20C160006BA489 /* Assets.xcassets in Resources */,
 				291782A91D20C160006BA489 /* Main.storyboard in Resources */,
@@ -270,6 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291782D81D20C24D006BA489 /* CenterLayer.m in Sources */,
+				291782DB1D20C43B006BA489 /* UIColor+Hex.m in Sources */,
+				291782D41D20C1C3006BA489 /* ZZH_LoadingView.m in Sources */,
+				BD3B8EB81D228BA100A43DA9 /* circleLayer.m in Sources */,
 				291782A61D20C160006BA489 /* ViewController.m in Sources */,
 				291782A31D20C160006BA489 /* AppDelegate.m in Sources */,
 				291782A01D20C160006BA489 /* main.m in Sources */,
@@ -496,6 +540,7 @@
 				291782CA1D20C160006BA489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		291782CB1D20C160006BA489 /* Build configuration list for PBXNativeTarget "ZZH_LoadingViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +549,7 @@
 				291782CD1D20C160006BA489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		291782CE1D20C160006BA489 /* Build configuration list for PBXNativeTarget "ZZH_LoadingViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +558,7 @@
 				291782D01D20C160006BA489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
